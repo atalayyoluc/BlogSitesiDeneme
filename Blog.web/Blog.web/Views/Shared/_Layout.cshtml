@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Blog.web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Blog.web.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Additional CSS Files -->
+
+    
+    <link rel="stylesheet" href="~/userpage/assets/css/fontawesome.css"/>
+    <link rel="stylesheet" href="~/userpage/assets/css/templatemo-stand-blog.css" />
+    <link rel="stylesheet" href="~/userpage/assets/css/owl.css" />
+</head>
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- Header -->
+    
+<header class="">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index"><h2>AtalayBlog<em>.</em></h2></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" style="flex-grow:0;" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                   
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/atalay-yolüç-640726185/">
+                                <i style="font-size:30px;" class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://github.com/atalayyoluc">
+                                <i style="font-size:30px;" class="fa-brands fa-github"></i>
+                                </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.instagram.com/atalayyoluc/">
+                                <i style="font-size:30px;" class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://twitter.com/AtalayYoluc">
+                                <i style="font-size:30px;" class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</header>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="main-banner header-text">
+      
+    </div>
+    <!-- Banner Ends Here -->
+
+   
+            @RenderBody()
+   
+
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="social-icons">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Behance</a></li>
+                        <li><a href="#">Linkedin</a></li>
+                        <li><a href="#">Dribbble</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="copyright-text">
+                        <p>
+                            Copyright 2020 Stand Blog Co.
+
+                            | Design: <a rel="nofollow" href="https://templatemo.com" target="_parent">TemplateMo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="~/userpage/vendor/jquery/jquery.min.js"></script>
+    <script src="~/userpage/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="~/userpage/assets/js/custom.js"></script>
+    <script src="~/userpage/assets/js/owl.js"></script>
+    <script src="~/userpage/assets/js/slick.js"></script>
+    <script src="~/userpage/assets/js/isotope.js"></script>
+    <script src="~/userpage/assets/js/accordions.js"></script>
+
+    <script language="text/Javascript">
+        cleared[0] = cleared[1] = cleared[2] = 0; 
+        function clearField(t) {                 
+            if (!cleared[t.id]) {               
+                cleared[t.id] = 1;
+                t.value = '';  
+                t.style.color = '#fff';
+            }
+        }
+    </script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+  
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
