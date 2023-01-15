@@ -44,7 +44,12 @@ namespace Blog.web.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> TotalCategoryCount()
         {
-            var count = await dashBordService.GetTotalArticleCount();
+            var count = await dashBordService.GetTotalCategoryCount();
+            return Json(count);
+        }
+        public async Task<IActionResult> TotalUserCount()
+        {
+            var count = await dashBordService.GetTotalUserCount();
             return Json(count);
         }
 

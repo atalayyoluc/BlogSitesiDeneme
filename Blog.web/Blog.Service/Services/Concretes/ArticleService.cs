@@ -49,6 +49,7 @@ namespace Blog.Service.Services.Concretes
 
         public async Task<List<ArticleDTO>> GetAllArticleWithCategoryNonDeletedAsync()
         {
+
           var articles= await unitOfWork.GetRepository<Article>().GetAllAsync(x=>!x.IsDeleted, x=>x.Category,x=>x.Image);
             var map = mapper.Map<List<ArticleDTO>>(articles);
             return map;
@@ -57,8 +58,10 @@ namespace Blog.Service.Services.Concretes
         public async Task<ArticleDTO> GetArticleWithCategoryNonDeletedAsync(Guid articleId)
         {
             var article = await unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id==articleId, x => x.Category, x => x.Image);
-            article.ViewCount = 1;
+            article.ViewCount++;
+            await unitOfWork.SaveAsync();
             var map = mapper.Map<ArticleDTO>(article);
+            
             return map;
         }
         
@@ -124,8 +127,8 @@ namespace Blog.Service.Services.Concretes
         {
             pageSize = pageSize > 20 ? 20 : pageSize;
 
-            var articles = categoryId == null ? await unitOfWork.GetRepository<Article>().GetAllAsync(a => !a.IsDeleted, a => a.Category, a => a.Image)
-                : await unitOfWork.GetRepository<Article>().GetAllAsync(a=>a.CategoryId==categoryId&& !a.IsDeleted,a=>a.Category,a=>a.Image);
+            var articles = categoryId == null ? await unitOfWork.GetRepository<Article>().GetAllAsync(a => !a.IsDeleted, a => a.Category, a => a.Image,a=>a.User)
+                : await unitOfWork.GetRepository<Article>().GetAllAsync(a=>a.CategoryId==categoryId&& !a.IsDeleted,a=>a.Category,a=>a.Image,a=>a.User);
 
             var sortedArticles = isAscending ? articles.OrderBy(a => a.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList() :
                     articles.OrderByDescending(a => a.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
@@ -140,9 +143,31 @@ namespace Blog.Service.Services.Concretes
                 TotalCount = articles.Count,
                 IsAscending = isAscending
             };
-        }   
+        }
+
+        public async Task<ArticleListDTO> Search(string keyword, int currentPage = 1, int pageSize = 3, bool isAscending = false)
+        {
+            pageSize = pageSize > 20 ? 20 : pageSize;
+
+            var articles = await unitOfWork.GetRepository<Article>().GetAllAsync(a => !a.IsDeleted &&
+                (a.Title.Contains(keyword) || a.Content.Contains(keyword)||a.Category.Name.Contains(keyword)) , 
+                 a => a.Category, a => a.Image, a => a.User);
+               
+
+            var sortedArticles = isAscending ? articles.OrderBy(a => a.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList() :
+                    articles.OrderByDescending(a => a.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
 
 
+            return new ArticleListDTO
+            {
+                Articles = sortedArticles,
+
+                CurrentPage = currentPage,
+                PageSize = pageSize,
+                TotalCount = articles.Count,
+                IsAscending = isAscending
+            }; 
+        }
     }
 
 }

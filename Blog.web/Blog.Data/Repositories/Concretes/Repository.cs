@@ -41,7 +41,7 @@ namespace Blog.Data.Repositories.Concretes
         {
             IQueryable<T> query = Table;
             if (predicate != null)
-                query= query.Where(predicate);
+                    query= query.Where(predicate);
 
             if (includeProperties.Any())
                 foreach(var item in includeProperties)

@@ -1,39 +1,37 @@
-﻿@model List<ArticleDTO>
-<section class="blog-posts">
-    <div class="container">
-        <div class="row">
+﻿@model ArticleListDTO
+
             <div class="col-lg-8">
                 <div class="all-blog-posts">
                     <div class="row">
-                      @foreach(var item in Model ){
+                      @foreach(var item in Model.Articles ){
                         <div class="col-lg-12">
                             <div class="blog-post">
                                 <div class="blog-thumb">
                                     <img src="~/images/@item.Image.FileName" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <span>@item.Category</span>
-                                    <a href="#"><h4>@item.Title</h4></a>
+                                  
+                                    <a asp-controller="Home" asp-action="GetByArticle" asp-route-articleId="@item.Id"><h4>@item.Title</h4></a>
                                     <ul class="post-info">
-                                        <li><a href="#">Makaleyi Yayınlayan @item.CreatedBy</a></li>
-                                        <li><a href="#">Makale Yayın Tarihi @item.CreatedDate</a></li>
-                                        <li><a href="#">@item.ViewCount kez Görüntülendi</a></li>
+                                        <li> @item.User.FirstName @item.User.LastName</li>
+                                        <li> @item.CreatedDate.ToString("dd/MM/yyyy")</li>
+                                        <li><i class="fa-solid fa-eye"></i> @item.ViewCount </li>
                                     </ul>
-                                    <p>@item.Content</p>
+                                    <p>@item.Content.Substring(0,250) ...</p>
                                     <div class="post-options">
                                         <div class="row">
                                             <div class="col-6">
                                                 <ul class="post-tags">
                                                     <li><i class="fa fa-tags"></i></li>
-                                                    <li><a href="#">Beauty</a>,</li>
-                                                    <li><a href="#">Nature</a></li>
+                                                    <li><a href="#">@item.Category.Name</a></li>
+                                    
                                                 </ul>
                                             </div>
                                             <div class="col-6">
                                                 <ul class="post-share">
-                                                    <li><i class="fa fa-share-alt"></i></li>
-                                                    <li><a href="#">Facebook</a>,</li>
-                                                    <li><a href="#"> Twitter</a></li>
+                                                    <li><i class="fa fa-link"></i></li>
+                                                    <li><a asp-controller="Home" asp-action="GetByArticle" asp-route-articleId="@item.Id">[Devamını Oku]</a></li>
+                                                  
                                                 </ul>
                                             </div>
                                         </div>
@@ -47,70 +45,29 @@
                             <div class="main-button">
                                 <a href="blog.html">View All Posts</a>
                             </div>
+
+                            <ul class="pagination justify-content-center mb-4 mt-4 btn-block">
+                    
+                                @if (Model.ShowPrevius)
+                                {
+                            <li class="page-item">
+                            <a class="page-link" asp-route-cuurentPage="@(Model.CurrentPage-1)" asp-route-pageSize="@Model.PageSize">Önceki</a>
+                            </li>
+                                }
+                                @for(int i = 1; i <= Model.TotalPages; i++)
+                                 {
+                                 <li class="page-item @(i==Model.CurrentPage ? "active" :"")"></li>
+                                   <a class="page-link" asp-route-cuurentPage="@i" asp-route-pageSize="@Model.PageSize">@i</a>
+                                 }
+                                    @if (Model.ShowNext)
+                                    {
+                                        <li class="page-item">
+                                            <a class="page-link" asp-route-cuurentPage="@(Model.CurrentPage+1)" asp-route-pageSize="@Model.PageSize">Sonraki</a>
+                                        </li>
+                                    }
+                                </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
-                <div class="sidebar">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="sidebar-item search">
-                                <form id="search_form" name="gs" method="GET" action="#">
-                                    <input type="text" name="q" class="searchText" placeholder="type to search..." autocomplete="on">
-                                </form>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="sidebar-item recent-posts">
-                                <div class="sidebar-heading">
-                                    <h2>Recent Posts</h2>
-                                </div>
-                                <div class="content">
-                                    <ul>
-                                        <li>
-                                            <a href="post-details.html">
-                                                <h5>Vestibulum id turpis porttitor sapien facilisis scelerisque</h5>
-                                                <span>May 31, 2020</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="post-details.html">
-                                                <h5>Suspendisse et metus nec libero ultrices varius eget in risus</h5>
-                                                <span>May 28, 2020</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="post-details.html">
-                                                <h5>Swag hella echo park leggings, shaman cornhole ethical coloring</h5>
-                                                <span>May 14, 2020</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="sidebar-item categories">
-                                <div class="sidebar-heading">
-                                    <h2>Categories</h2>
-                                </div>
-                                <div class="content">
-                                    <ul>
-                                        <li><a href="#">- Nature Lifestyle</a></li>
-                                        <li><a href="#">- Awesome Layouts</a></li>
-                                        <li><a href="#">- Creative Ideas</a></li>
-                                        <li><a href="#">- Responsive Templates</a></li>
-                                        <li><a href="#">- HTML5 / CSS3 Templates</a></li>
-                                        <li><a href="#">- Creative &amp; Unique</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-               
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+

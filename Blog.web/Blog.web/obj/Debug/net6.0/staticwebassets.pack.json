@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\images\\Article-img\\Aliquamvestibulum_837.jpg",
+      "PackagePath": "staticwebassets\\images\\Article-img\\Aliquamvestibulum_837.jpg"
+    },
+    {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\images\\Article-img\\Deneme123412331_438.png",
       "PackagePath": "staticwebassets\\images\\Article-img\\Deneme123412331_438.png"
     },
@@ -41,8 +45,16 @@
       "PackagePath": "staticwebassets\\images\\Article-img\\IlkMakaleDenemesi_477.png"
     },
     {
+      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\images\\Article-img\\KisaMakalelermiYoksaUzunMakalelermi_762.jpg",
+      "PackagePath": "staticwebassets\\images\\Article-img\\KisaMakalelermiYoksaUzunMakalelermi_762.jpg"
+    },
+    {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\images\\Article-img\\LoremIpsumMakale_708.png",
       "PackagePath": "staticwebassets\\images\\Article-img\\LoremIpsumMakale_708.png"
+    },
+    {
+      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\images\\User-img\\AdminUser_912.jpg",
+      "PackagePath": "staticwebassets\\images\\User-img\\AdminUser_912.jpg"
     },
     {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\images\\User-img\\AtalayYoluc_114.jfif",
@@ -353,182 +365,6 @@
       "PackagePath": "staticwebassets\\sneat\\assets\\css\\demo.css"
     },
     {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\avatars\\1.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\1.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\avatars\\5.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\5.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\avatars\\6.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\6.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\avatars\\7.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\avatars\\7.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\backgrounds\\18.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\backgrounds\\18.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\1.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\11.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\11.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\12.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\12.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\13.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\13.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\17.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\17.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\18.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\18.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\19.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\19.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\2.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\20.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\20.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\3.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\4.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\4.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\5.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\5.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\elements\\7.jpg",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\elements\\7.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\favicon\\favicon.ico",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\favicon\\favicon.ico"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\asana.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\asana.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\behance.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\behance.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\dribbble.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\dribbble.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\facebook.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\facebook.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\github.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\github.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\google.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\google.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\instagram.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\instagram.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\mailchimp.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\mailchimp.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\slack.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\slack.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\brands\\twitter.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\brands\\twitter.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-primary.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-primary.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-success.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-success.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\cc-warning.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\cc-warning.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\chart-success.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\chart-success.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\chart.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\chart.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\paypal.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\paypal.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\wallet-info.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\wallet-info.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\icons\\unicons\\wallet.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\icons\\unicons\\wallet.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\illustrations\\girl-doing-yoga-light.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\girl-doing-yoga-light.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\illustrations\\man-with-laptop-light.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\man-with-laptop-light.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\illustrations\\page-misc-error-light.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\illustrations\\page-misc-error-light.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-container-light.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-container-light.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-fluid-light.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-fluid-light.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-without-menu-light.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-without-menu-light.png"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\img\\layouts\\layout-without-navbar-light.png",
-      "PackagePath": "staticwebassets\\sneat\\assets\\img\\layouts\\layout-without-navbar-light.png"
-    },
-    {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\assets\\js\\config.js",
       "PackagePath": "staticwebassets\\sneat\\assets\\js\\config.js"
     },
@@ -679,174 +515,6 @@
     {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\gulpfile.js",
       "PackagePath": "staticwebassets\\sneat\\gulpfile.js"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\auth-forgot-password-basic.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\auth-forgot-password-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\auth-login-basic.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\auth-login-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\auth-register-basic.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\auth-register-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\cards-basic.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\cards-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\extended-ui-perfect-scrollbar.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\extended-ui-perfect-scrollbar.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\extended-ui-text-divider.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\extended-ui-text-divider.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\form-layouts-horizontal.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\form-layouts-horizontal.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\form-layouts-vertical.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\form-layouts-vertical.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\forms-basic-inputs.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\forms-basic-inputs.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\forms-input-groups.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\forms-input-groups.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\icons-boxicons.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\icons-boxicons.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\index.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\index.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\layouts-blank.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\layouts-blank.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\layouts-container.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\layouts-container.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\layouts-fluid.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\layouts-fluid.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\layouts-without-menu.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\layouts-without-menu.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\layouts-without-navbar.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\layouts-without-navbar.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\pages-account-settings-account.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-account.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\pages-account-settings-connections.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-connections.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\pages-account-settings-notifications.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\pages-account-settings-notifications.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\pages-misc-error.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\pages-misc-error.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\pages-misc-under-maintenance.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\pages-misc-under-maintenance.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\tables-basic.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\tables-basic.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-accordion.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-accordion.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-alerts.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-alerts.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-badges.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-badges.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-buttons.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-buttons.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-carousel.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-carousel.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-collapse.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-collapse.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-dropdowns.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-dropdowns.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-footer.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-footer.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-list-groups.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-list-groups.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-modals.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-modals.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-navbar.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-navbar.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-offcanvas.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-offcanvas.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-pagination-breadcrumbs.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-pagination-breadcrumbs.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-progress.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-progress.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-spinners.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-spinners.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-tabs-pills.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-tabs-pills.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-toasts.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-toasts.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-tooltips-popovers.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-tooltips-popovers.html"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\html\\ui-typography.html",
-      "PackagePath": "staticwebassets\\sneat\\html\\ui-typography.html"
     },
     {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\sneat\\index.html",
@@ -1351,90 +1019,6 @@
     {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\fonts\\slick.woff",
       "PackagePath": "staticwebassets\\userpage\\assets\\fonts\\slick.woff"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\about-us.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\about-us.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\banner-item-01.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\banner-item-01.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\banner-item-02.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\banner-item-02.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\banner-item-03.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\banner-item-03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\banner-item-04.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\banner-item-04.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\banner-item-05.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\banner-item-05.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\banner-item-06.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\banner-item-06.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-post-01.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-post-01.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-post-02.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-post-02.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-post-03.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-post-03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-thumb-01.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-thumb-01.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-thumb-02.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-thumb-02.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-thumb-03.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-thumb-03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-thumb-04.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-thumb-04.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-thumb-05.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-thumb-05.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\blog-thumb-06.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\blog-thumb-06.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\comment-author-01.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\comment-author-01.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\comment-author-02.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\comment-author-02.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\comment-author-03.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\comment-author-03.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\cta-bg.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\cta-bg.jpg"
-    },
-    {
-      "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\images\\heading-bg.jpg",
-      "PackagePath": "staticwebassets\\userpage\\assets\\images\\heading-bg.jpg"
     },
     {
       "Id": "C:\\Users\\Atalay\\Desktop\\BlogSitesiDeneme\\Blog.web\\Blog.web\\wwwroot\\userpage\\assets\\js\\accordions.js",

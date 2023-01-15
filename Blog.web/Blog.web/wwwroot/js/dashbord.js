@@ -5,6 +5,21 @@ $(document).ready(function () {
     var yearlyArticlesUrl = app.Urls.yearlyArticlesUrl;
     var totalArticleCountUrl = app.Urls.totalArticleCountUrl;
     var totalCategoryCountUrl = app.Urls.totalCategoryCountUrl;
+    var totalUserCountUrl = app.Urls.totalUserCountUrl;
+
+
+    $.ajax({
+        type: "GET",
+        url: totalUserCountUrl,
+        dataType: "json",
+        success: function (data) {
+            $("h3#totalUserCount").append(data);
+        },
+        error: function () {
+            toastr.error("Kullanıcı Analizleri yüklenirken hata oluştu", "Hata");
+        }
+
+    });
 
     $.ajax({
         type: "GET",
@@ -26,7 +41,7 @@ $(document).ready(function () {
             $("h3#totalCategoryCount").append(data);
         },
         error: function () {
-            toastr.error("Makale Analizleri yüklenirken hata oluştu", "Hata");
+            toastr.error("Kategori Analizleri yüklenirken hata oluştu", "Hata");
         }
 
     });

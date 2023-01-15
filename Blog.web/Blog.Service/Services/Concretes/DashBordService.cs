@@ -48,6 +48,11 @@ namespace YoutubeBlog.Service.Services.Concrete
             var categoryCount = await unitOfWork.GetRepository<Category>().CountAsync();
             return categoryCount;
         }
+        public async Task<int> GetTotalUserCount()
+        {
+            var userCount = await unitOfWork.GetRepository<AppUser>().CountAsync();
+            return userCount;
+        }
 
     }
 }
