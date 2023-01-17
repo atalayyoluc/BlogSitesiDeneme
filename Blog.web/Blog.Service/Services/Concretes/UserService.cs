@@ -138,7 +138,7 @@ namespace Blog.Service.Services.Concretes
         {
             var userId = _user.GetLoggedInUserId();
             var user = await GetAppUserByIdAsync(userId);
-
+            var a = user.ImageId;
             var isVerified = await userManager.CheckPasswordAsync(user, userProfileDto.CurrentPassword);
             if (isVerified && userProfileDto.NewPassword != null)
             {
@@ -153,7 +153,10 @@ namespace Blog.Service.Services.Concretes
 
                     if (userProfileDto.Photo != null)
                         user.ImageId = await UploadImageForUser(userProfileDto);
-
+                    else
+                    {
+                        user.ImageId =a;
+                    }
                     await userManager.UpdateAsync(user);
                     await unitOfWork.SaveAsync();
 
@@ -169,7 +172,10 @@ namespace Blog.Service.Services.Concretes
 
                 if (userProfileDto.Photo != null)
                     user.ImageId = await UploadImageForUser(userProfileDto);
-
+                else
+                {
+                    user.ImageId = a;
+                }
                 await userManager.UpdateAsync(user);
                 await unitOfWork.SaveAsync();
                 return true;

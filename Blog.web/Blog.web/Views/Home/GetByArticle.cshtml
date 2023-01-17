@@ -10,31 +10,74 @@
             <span>@Model.Category.Name</span>
                     <h1>@Model.Title</h1>
             <ul class="post-info">
-                <li><a href="#">Makaleyi Yayımlamyan @Model.CreatedBy</a></li>
-                <li><a href="#">Makale Yayım Tarihi @Model.CreatedDate</a></li>
-                <li><a href="#">@Model.ViewCount kere görüntülendi</a></li>
+                <li>Makaleyi Yayımlamyan @Model.CreatedBy</li>
+                <li>Makale Yayım Tarihi @Model.CreatedDate</li>
+                <li>@Model.ViewCount kere görüntülendi</li>
             </ul>
             <p>
                 @Model.Content
             </p>
-            <div class="post-options">
-                <div class="row">
-                    <div class="col-6">
-                        <ul class="post-tags">
-                            <li><i class="fa fa-tags"></i></li>
-                            <li><a href="#">Best Templates</a>,</li>
-                            <li><a href="#">TemplateMo</a></li>
-                        </ul>
+        
+        </div>
+    </div>
+</div>
+<div class="col-lg-4">
+    <div class="sidebar">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sidebar-item search">
+                    <form id="search_form" method="GET" asp-action="Search" asp-controller="Home">
+                        <input type="text" name="keyword" class="searchText" placeholder="Arama Yapınız..." autocomplete="on">
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="sidebar-item recent-posts">
+                    <div class="sidebar-heading">
+                        <h2>En Çok Okunan Gönderiler</h2>
                     </div>
-                    <div class="col-6">
-                        <ul class="post-share">
-                            <li><i class="fa fa-share-alt"></i></li>
-                            <li><a href="#">Facebook</a>,</li>
-                            <li><a href="#"> Twitter</a></li>
+                
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a asp-controller="Home" asp-action="GetByArticle" asp-route-articleId="@ViewBag.articles[0].Id">
+                                    <h5>@ViewBag.articles[0].Title</h5>
+                                    <span>@ViewBag.articles[0].CreatedDate</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="Home" asp-action="GetByArticle" asp-route-articleId="@ViewBag.articles[1].Id">
+                                <h5>@ViewBag.Articles[1].Title</h5>
+                                <span>@ViewBag.Articles[1].CreatedDate</span>
+                                 </a>
+                            </li>
+                              <li>
+                                <a asp-controller="Home" asp-action="GetByArticle" asp-route-articleId="@ViewBag.articles[2].Id">
+                                    <h5>@ViewBag.articles[2].Title</h5>
+                                    <span>@ViewBag.articles[2].CreatedDate</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-12">
+                <div class="sidebar-item categories">
+                    <div class="sidebar-heading">
+                        <h2>Kategoriler</h2>
+                    </div>
+                    <div class="content">
+                        @foreach (var item in ViewBag.category)
+                        {
+                            <ul>
+                                <li><a asp-controller="Home" asp-action="Index" asp-route-categoryId="@item.Id">@item.Name</a></li>
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

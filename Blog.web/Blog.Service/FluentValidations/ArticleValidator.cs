@@ -15,7 +15,7 @@ namespace Blog.Service.FluentValidations
             RuleFor(x => x.Title).
                 NotNull().
                 NotEmpty()
-                .MinimumLength(15).MaximumLength(45)
+                .MinimumLength(10).MaximumLength(45)
                 .WithName("Başlık");
 
             RuleFor(x=>x.Content)

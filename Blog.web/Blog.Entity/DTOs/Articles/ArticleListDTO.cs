@@ -1,4 +1,5 @@
-﻿using Blog.Entity.Entities;
+﻿using Blog.Entity.DTOs.Categories;
+using Blog.Entity.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,7 @@ namespace Blog.Entity.DTOs.Articles
         public virtual bool ShowPrevius => CurrentPage > 1;
         public virtual bool ShowNext => CurrentPage < TotalPages;
         public virtual bool IsAscending { get; set; } = false;
+        public IList<CategoryDTO> Categories { get; set; }
 
 
     }

@@ -31,10 +31,10 @@ namespace Blog.Data.Mapping
                 IsDeleted = false,
 
             }
-            
+
             );
-           
-                
+
+
         }
     }
 }

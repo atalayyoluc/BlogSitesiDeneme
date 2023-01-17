@@ -22,7 +22,7 @@ namespace Blog.Data.Mapping
                 CreatedDate = DateTime.Now,
                 IsDeleted = false,
             },
-            new Image 
+            new Image
             {
                 Id = Guid.Parse("CD2BAD66-9968-436F-ADE6-AACFD337F644"),
                 FileName = "images/testimage2",

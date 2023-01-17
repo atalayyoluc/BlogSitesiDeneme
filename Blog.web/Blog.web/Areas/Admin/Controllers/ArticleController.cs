@@ -51,6 +51,8 @@ namespace Blog.web.Areas.Admin.Controllers
         [Authorize(Roles = $"{RoleConst.EnYetkiliYonetici},{RoleConst.AzYetkiliYonetici}")]
         public async Task<IActionResult>Add(ArticleAddDTO articleAddDTO)
         {
+           
+
             var map = mapper.Map<Article>(articleAddDTO);
             var result = await validator.ValidateAsync(map);
 

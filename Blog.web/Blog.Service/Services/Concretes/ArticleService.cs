@@ -19,14 +19,16 @@ namespace Blog.Service.Services.Concretes
         private readonly IMapper mapper;
         private readonly IHttpContextAccessor httpContextAccessor;
         private readonly IImageHelper imageHelper;
+        private readonly ICategoryService categoryService;
         private readonly ClaimsPrincipal user;
 
-        public ArticleService(IUnitOfWork unitOfWork, IMapper mapper,IHttpContextAccessor httpContextAccessor,IImageHelper imageHelper)
+        public ArticleService(IUnitOfWork unitOfWork, IMapper mapper,IHttpContextAccessor httpContextAccessor,IImageHelper imageHelper,ICategoryService categoryService)
         {
             this.unitOfWork = unitOfWork;
             this.mapper = mapper;
             this.httpContextAccessor = httpContextAccessor;
             this.imageHelper = imageHelper;
+            this.categoryService = categoryService;
             user = httpContextAccessor.HttpContext.User;
         }
 
@@ -51,7 +53,8 @@ namespace Blog.Service.Services.Concretes
         {
 
           var articles= await unitOfWork.GetRepository<Article>().GetAllAsync(x=>!x.IsDeleted, x=>x.Category,x=>x.Image);
-            var map = mapper.Map<List<ArticleDTO>>(articles);
+          var a=  articles.OrderByDescending(x=>x.ViewCount).ToList();
+            var map = mapper.Map<List<ArticleDTO>>(a);
             return map;
         }
 
@@ -125,23 +128,27 @@ namespace Blog.Service.Services.Concretes
         }
         public async Task<ArticleListDTO> GetAllByPagingAsync(Guid? categoryId,int currentPage=1,int pageSize=3, bool isAscending=false)
         {
+
+
             pageSize = pageSize > 20 ? 20 : pageSize;
 
-            var articles = categoryId == null ? await unitOfWork.GetRepository<Article>().GetAllAsync(a => !a.IsDeleted, a => a.Category, a => a.Image,a=>a.User)
+            var articles = categoryId == null ? await unitOfWork.GetRepository<Article>().GetAllAsync(a => !a.IsDeleted && !a.Category.IsDeleted, a => a.Category, a => a.Image,a=>a.User)
                 : await unitOfWork.GetRepository<Article>().GetAllAsync(a=>a.CategoryId==categoryId&& !a.IsDeleted,a=>a.Category,a=>a.Image,a=>a.User);
 
             var sortedArticles = isAscending ? articles.OrderBy(a => a.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList() :
                     articles.OrderByDescending(a => a.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
-          
 
+            var category = await categoryService.GetAllCategoriesNonDeleted();
             return new ArticleListDTO
             {
-                Articles = sortedArticles ,
+                Articles = sortedArticles,
                 CategoryId = categoryId == null ? null : categoryId.Value,
                 CurrentPage = currentPage,
                 PageSize = pageSize,
                 TotalCount = articles.Count,
-                IsAscending = isAscending
+                IsAscending = isAscending,
+                Categories=category
+                
             };
         }
 
@@ -168,6 +175,8 @@ namespace Blog.Service.Services.Concretes
                 IsAscending = isAscending
             }; 
         }
+
+ 
     }
 
 }
